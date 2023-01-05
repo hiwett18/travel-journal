@@ -5,7 +5,7 @@ let places = [
       img: "/images/mountain.jpeg",
       date: "12 Dec,2022 - 20 Dec, 2022",
       map:"https://www.google.com/maps/dir//Mt+Kilimanjaro,+Tanzania/@-3.0673815,37.3350276,14z/data=!4m9!4m8!1m0!1m5!1m1!1s0x1839fc5a396ea805:0x8e741c478eea6c01!2m2!1d37.3556273!2d-3.0674247!3e0?hl=en&authuser=0",
-      paragraph: "It is the highest mountain in Africa and the highest single free-standing mountain above sea level in the world"
+      paragraph: "It is the highest mountain in Africa and the highest single free-standing mountain above sea level in the world."
     },
    
   {
