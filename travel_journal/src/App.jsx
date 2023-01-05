@@ -12,7 +12,7 @@ function App() {
       <Navbar /> 
       {places.map((place)=>{
         return(
-          <Section className="hero" img={place.img} name={place.name} location={place.location} paragraph={place.paragraph}/> 
+          <Section className="hero" img={place.img} name={place.name} map={place.map} location={place.location} date={place.date} paragraph={place.paragraph}/> 
         )
       })}
     </div>

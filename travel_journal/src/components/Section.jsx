@@ -5,8 +5,12 @@ export default function Section(props) {
         <section className="section-card">
            <img className="travel-image" src={props.img}/> 
            <div className="text">
-            <h3 className="text-one"><img className="loc-img" src={loc}/> {props.location}</h3> 
+                <div className="text-one">
+                    <h3><img className="loc-img" src={loc}/> {props.location}</h3> 
+                    <a href={props.map}>View on Google Maps</a>
+                </div>
             <h2>{props.name}</h2>
+            <h4><b>{props.date}</b></h4>
             <p>{props.paragraph}</p>
            </div>
         </section>

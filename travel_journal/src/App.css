@@ -23,8 +23,8 @@ section {
 
 
 .loc-img{
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
 }
 
 .text{
@@ -52,4 +52,15 @@ color: #2B283A;
   align-self: left;
   border-radius: 10px;
   margin-bottom: 20px;
+}
+
+.text-one{
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+}
+
+a{
+  margin-top: 12px;
+  margin-left: 10px;
 }
